@@ -1,0 +1,36 @@
+body{
+    width: 100%;
+    height: 100vh;
+
+    background-image: url("../assets/hogwarts-legacy-2578475.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#inicio{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 10rem;
+}
+
+#inicio button{
+    width: 10rem;
+    font-size: 26px;
+    padding: .5rem;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#inicio h1{
+    font-family: 'Charm', cursive;
+    font-size: 120px;
+    color: rgb(156, 104, 19);
+}
