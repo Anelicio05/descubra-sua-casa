@@ -1,7 +1,15 @@
 import quiz from "./questoes.js";
 const div = document.getElementById("pergutas")
+const inicio = document.getElementById("inicio")
+const play = document.getElementById("botao") 
 
 const casasImagem = document.querySelectorAll(".img-casas")
+
+play.addEventListener("click", ()=>{
+    inicio.style.display = 'none'
+    div.style.display = 'flex'
+    mostraPergunta()
+})
 
 let armazenaResposta = []
 
@@ -75,5 +83,3 @@ function casaEscolhida(casa) {
 
     return palavraMaisFrequente
 }
-
-mostraPergunta()

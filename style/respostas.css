@@ -1,6 +1,6 @@
 #pergutas{
     background-color: rgba(255, 255, 255, 70%);
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
